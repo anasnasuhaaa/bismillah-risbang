@@ -42,11 +42,10 @@ export default function Calculator() {
     setDisplay((prev) => prev + value)
   }
 
-
   return (
     <Card className="w-auto mx-auto mt-5 bg-blue-300">
       <CardContent className="p-4 space-y-4">
-        <div className="h-16 rounded-md flex items-center justify-end px-3 text-3xl font-mono bg-blue-400 font-medium">
+        <div className="h-20 rounded-md flex items-center justify-end px-3 text-4xl font-mono bg-blue-400 font-bold">
           {display || "0"}
         </div>
 
