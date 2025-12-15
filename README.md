@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Portofolio Risbang Anas Nasuha
 
-## Getting Started
+Tampilan pada project ini dikembangkan dengan menerapkan prinsip component-based pada Next.js. Beberapa komponen utama, seperti Card dan Button, disiapkan secara terpisah di dalam folder components, kemudian digunakan kembali dengan cara dipanggil pada file utama.
 
-First, run the development server:
+Pendekatan ini bertujuan untuk meningkatkan keterbacaan kode dan kemudahan maintenance karena setiap komponen dapat digunakan ulang pada bagian lain dari aplikasi.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Project ini sudah saya deploy menggunakan Vercel. Bisa diliat di [bismillah-risbang.vercel.app](https://bismillah-risbang.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Teknologi Yang Digunakan
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Framework: [Next Js](https://nextjs.org)
+Bahasa: [TypeScript](https://www.typescriptlang.org)
+UI & Style: [ShadcnUI](https://ui.shadcn.com/) [Tailwind CSS](https://tailwindcss.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Cara Kerja Program
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Layaknya program kalkulator pada umumnya, pengguna dapat memasukkan angka dan memilih operasi matematika yang diinginkan. Operasi yang tersedia dalam program ini meliputi penjumlahan, pengurangan, perkalian, dan pembagian. Program kemudian akan menampilkan hasil perhitungan sesuai dengan input yang diberikan oleh pengguna. Kurang enak kalo cuma baca, mending langsung aja cobain di [bismillah-risbang.vercel.app](https://bismillah-risbang.vercel.app)
